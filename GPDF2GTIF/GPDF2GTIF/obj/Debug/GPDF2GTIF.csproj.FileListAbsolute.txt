@@ -1,0 +1,9 @@
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\bin\Debug\GPDF2GTIF.exe.config
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\bin\Debug\GPDF2GTIF.exe
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\bin\Debug\GPDF2GTIF.pdb
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.csprojResolveAssemblyReference.cache
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.Form1.resources
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.Properties.Resources.resources
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.csproj.GenerateResource.Cache
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.exe
+F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.pdb
