@@ -11,8 +11,9 @@ namespace GPDF2GTIF
     static class Program
     {
         public static String fPath = "";
-        public static String fName = "";
-        public static String fOutput = "./Exports";
+        public static String fName = @"";
+        public static String fOutputPath = @"";
+        public static String fOutputFile = @"";
 
         // Getters and Setters
         public static void SetfName(String a) {
@@ -25,11 +26,11 @@ namespace GPDF2GTIF
 
         public static void SetfOutput(String a)
         {
-            fOutput = a;
+            fOutputPath = a;
         }
         public static String GetfOutput()
         {
-            return fOutput;
+            return fOutputPath;
         }
 
         // Getters and Setters End
@@ -41,8 +42,9 @@ namespace GPDF2GTIF
         private static void CreatePro()
         {
             try
-            {
-                String cmdargs = "/C gdal_translate -of PDF " + fPath + fName  + " testlol.tif";
+            {            
+                String cmdargs = "/C gdal_translate -of PDF " + fPath + "/" + @fName + " " + fOutputPath + '/' + @fOutputFile;
+                Console.WriteLine("Path : " + @fPath + " File Name : " + @fName + "Output Destination: " + fOutputPath);
               System.Diagnostics.Process.Start("CMD.exe", cmdargs);
             }
             catch (Exception e)
@@ -61,8 +63,8 @@ namespace GPDF2GTIF
             {
                 if (!Directory.Exists(fPath))
                 {
-                    DirectoryInfo di = Directory.CreateDirectory(fPath);
-                    DirectoryInfo dl = Directory.CreateDirectory(fOutput);
+                    DirectoryInfo di = Directory.CreateDirectory(fPath.ToString());
+                    DirectoryInfo dl = Directory.CreateDirectory(fOutputPath.ToString());
                     CreatePro();
                 }
                 else

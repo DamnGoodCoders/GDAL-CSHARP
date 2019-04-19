@@ -24,12 +24,22 @@ namespace GPDF2GTIF
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Program.fPath = textBox1.ToString();
+            Program.fPath = textBox1.Text;
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            Program.fName = textBox3.ToString();
+            Program.fName = textBox3.Text;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            Program.fOutputPath = textBox2.Text;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            Program.fOutputFile = textBox4.Text;
         }
     }
 }
