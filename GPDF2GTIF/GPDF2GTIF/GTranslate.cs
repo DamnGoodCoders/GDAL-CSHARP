@@ -96,10 +96,10 @@ namespace GPDF2GTIF
 
         public GTranslate()
         {
-            SetfPath(@"");
-            SetfName(@"");
-            SetfOutputPath(@"");
-            SetfOutputFilename(@"");
+            SetfPath(@"./Imports");
+            SetfName(@"Example.pdf");
+            SetfOutputPath(@"./Exports");
+            SetfOutputFilename(@"Example.tif");
         }
     }
 }
