@@ -6,3 +6,13 @@ F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.Properties.Resources.res
 F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.csproj.GenerateResource.Cache
 F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.exe
 F:\source\repos\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.pdb
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\bin\Debug\GPDF2GTIF.exe.config
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\bin\Debug\GPDF2GTIF.exe
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\bin\Debug\GPDF2GTIF.pdb
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.csprojAssemblyReference.cache
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.Form1.resources
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.Properties.Resources.resources
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.csproj.GenerateResource.cache
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.csproj.CoreCompileInputs.cache
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.exe
+C:\Users\Koril\GDAL-CSHARP\GPDF2GTIF\GPDF2GTIF\obj\Debug\GPDF2GTIF.pdb
