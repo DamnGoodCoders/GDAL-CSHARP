@@ -42,5 +42,37 @@ namespace GPDF2GTIF
         {
             translate.SetfOutputFilename(textBox4.Text);
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openF = new OpenFileDialog();
+            openF.InitialDirectory = @"./Imports";
+            openF.RestoreDirectory = true;
+            openF.Title = "Browse Files";
+            openF.DefaultExt = "pdf";
+            openF.CheckFileExists = true;
+            openF.CheckPathExists = true;
+            DialogResult res = openF.ShowDialog();
+            if (res == DialogResult.OK)
+            {
+                textBox3.Text = System.IO.Path.GetFileName(openF.FileName);
+                textBox4.Text = System.IO.Path.GetFileNameWithoutExtension(openF.FileName);
+                textBox4.Text = textBox4.Text + ".tif";
+                textBox1.Text = System.IO.Path.GetDirectoryName(openF.FileName);
+                translate.SetfName(textBox3.Text);
+            }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog openF = new FolderBrowserDialog();
+            openF.ShowNewFolderButton = true;
+            DialogResult res = openF.ShowDialog();
+            if(res == DialogResult.OK)
+            {
+                textBox2.Text = openF.SelectedPath;
+                Environment.SpecialFolder root = openF.RootFolder;
+            }
+        }
     }
 }
