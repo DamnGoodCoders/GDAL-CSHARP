@@ -1,4 +1,4 @@
-# GDAL Windows GUI
+# GDAL-Translate Windows GUI
 
 ## Software Engineering Capstone 2019
 
