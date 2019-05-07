@@ -4,7 +4,7 @@
 
 This project provides a GUI Windows Program (using WinForms) to simplify the translation of Geospatial PDFS to GeoTIFFs.
 
-Here's the [installer](https://github.com/DamnGoodCoders/GPDF2GTIF-Installer).
+Here's the [installer](https://github.com/DamnGoodCoders/GPDF2GTIF-Installer), which is written using [NSIS](https://nsis.sourceforge.io/Main_Page), a scripting language for writing Windows installers.
 
 Originally, we wanted this project on Android.  Here's [the link to that project](https://github.com/DamnGoodCoders/FireMap-Android/), along with [its contribution statistics](https://github.com/DamnGoodCoders/FireMap-Android/graphs/contributors).
 
