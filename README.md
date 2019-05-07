@@ -6,6 +6,8 @@ This project provides a GUI Windows Program (using WinForms) to simplify the tra
 
 Here's the [installer](https://github.com/DamnGoodCoders/GPDF2GTIF-Installer).
 
+Originally, we wanted this project on Android.  Here's [the link to that project](https://github.com/DamnGoodCoders/FireMap-Android/), along with [its contribution statistics](https://github.com/DamnGoodCoders/FireMap-Android/graphs/contributors).
+
 ## Contact Info:
 - Caleb Gartner
 - Thane Wilson
