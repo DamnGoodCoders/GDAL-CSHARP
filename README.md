@@ -4,6 +4,8 @@
 
 This project provides a GUI Windows Program (using WinForms) to simplify the translation of Geospatial PDFS to GeoTIFFs.
 
+Here's the [installer](https://github.com/DamnGoodCoders/GPDF2GTIF-Installer).
+
 ## Contact Info:
 - Caleb Gartner
 - Thane Wilson
