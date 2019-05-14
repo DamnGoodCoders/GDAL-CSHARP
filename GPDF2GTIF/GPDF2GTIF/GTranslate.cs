@@ -53,7 +53,7 @@ namespace GPDF2GTIF
         {
             try
             {
-                String cmdargs = "/C gdal_translate -of PDF " + fPath + "/" + fName + " " + fOutputPath + '/' + fOutputFileName;
+                String cmdargs = "/C gdal_translate " + fPath + "/" + fName + " " + fOutputPath + '/' + fOutputFileName;
                 Console.WriteLine("Path : " + @fPath + " File Name : " + @fName + "Output Destination: " + fOutputPath);
                 System.Diagnostics.Process.Start("CMD.exe", cmdargs);
             }
